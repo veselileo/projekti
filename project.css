@@ -180,30 +180,20 @@ body {
     color: white;
   }
 
-  .title{
-    text-align: center;
-    background-color: lightblue;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-bottom: 15px;
-    padding-right: 15px;
-  }
 
-  
-  .procesor {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
+
+#title{
+    background-color: lightblue;
+    padding: 10px;
     text-align: center;
-    font-family: arial;
-  }
-  
-  .price {
+}
+
+.price {
     color: grey;
     font-size: 22px;
   }
   
-  .procesor button {
+  .card button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -215,18 +205,60 @@ body {
     font-size: 18px;
   }
   
-  .procesor button:hover {
+  .card button:hover {
     opacity: 0.7;
   }
 
-.procesor{
-    width: 170px;
-    height: 170px;
-    float: left;
+  .card{
+    width: 200px;
+    height: 200px;
+  }
+  
+
+
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .card{
+    width: 200px;
+    height: 200px;
+  }
+  
+#maindiv{
+    display: flex;
+    flex-direction: row;
+    
 }
 
+#product{
+    padding-right: 100px;
+}
 
+#product:hover{
+    transform: scale(1.2);
+    transition-duration: 2s;
+    text-align: center;
+    box-shadow: #000;
+}
 
-
-
-
+#login{
+    float: right;
+}
